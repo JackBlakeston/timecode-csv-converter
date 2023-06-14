@@ -1,0 +1,22 @@
+{
+  "name": "timecode-csv-converter",
+  "version": "1.0.0",
+  "description": "Script that takes a formatted timecode script and outputs a converted csv",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackBlakeston/timecode-csv-converter.git"
+  },
+  "author": "Jack Blakeston",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JackBlakeston/timecode-csv-converter/issues"
+  },
+  "homepage": "https://github.com/JackBlakeston/timecode-csv-converter#readme",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
+}
