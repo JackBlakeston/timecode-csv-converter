@@ -4,7 +4,7 @@
   "description": "Script that takes a formatted timecode script and outputs a converted csv",
   "main": "index.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc && npx pkg lib/index.js --targets node14-linux-x64,node14-macos-x64,node14-win-x64 -o timecode-csv && npx rimraf executables && mkdir executables && mv timecode-csv-* executables"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,9 @@
   },
   "homepage": "https://github.com/JackBlakeston/timecode-csv-converter#readme",
   "devDependencies": {
+    "@types/node": "^20.3.1",
+    "pkg": "^5.8.1",
+    "rimraf": "^5.0.1",
     "typescript": "^5.1.3"
   }
 }
