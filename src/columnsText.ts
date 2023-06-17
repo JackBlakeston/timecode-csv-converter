@@ -1,0 +1,6 @@
+export const IN_COLUMN_HEADER = 'IN-TIMECODE';
+export const OUT_COLUMN_HEADER = 'OUT-TIMECODE';
+export const SOURCE_COLUMN_HEADER = 'SOURCE';
+export const DIALOGUE_COLUMN_HEADER = 'DIALOGUE';
+
+export const SOURCE_COLUMN_ITEM = 'NARRATOR';
